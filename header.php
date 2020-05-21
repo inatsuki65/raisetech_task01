@@ -7,16 +7,18 @@
     <meta name="description" content="WordPress theme development static data for beginners">
     <meta name="keywords" content="WordPress, Theme, development">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/common/ico/favicon.ico">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/scss/app.css">
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
     <header class="header">
       <h1 class="header_ttl">
         <a href="<?php echo esc_url(home_url('/')); ?>">
-          <span class="header__ttl__sub"> static </span>
+          <span class="header__ttl__sub"> Hamburger </span>
         </a>
       </h1>
-      <p class="header__description"><?php bloginfo('description'); ?></p>
-      <?php get_search_form(); ?>
-      <?php wp_nav_menu(); ?>
+      <form action="cgi-bin/abc.cgi" method="post">
+        <input type="search">
+        <input type="submit" value="検索">
+      </form>
     </header>

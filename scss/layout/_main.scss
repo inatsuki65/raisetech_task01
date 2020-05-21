@@ -1,0 +1,20 @@
+.damysite {
+  position: relative;
+  p {
+    position: absolute;
+    top:      50%;
+    left:     50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Quicksand, sans-serif;
+  }
+
+  img {
+    width:100%;
+  }
+
+}
