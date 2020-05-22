@@ -343,12 +343,15 @@ template {
 
 .header {
   position: relative;
+  text-align: center;
+  height: 100px;
 }
 
-.header .header__ttl__sub {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.header .header_ttl {
+  color: gray;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Quicksand, sans-serif;
 }
 
 .damysite {
@@ -358,7 +361,7 @@ template {
 .damysite p {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0;
@@ -371,6 +374,75 @@ template {
 
 .damysite img {
   width: 100%;
+}
+
+.takeout {
+  position: relative;
+}
+
+.takeout p {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Quicksand, sans-serif;
+}
+
+.takeout img {
+  width: 90%;
+  padding: 5% 5%;
+}
+
+.eatin {
+  position: relative;
+}
+
+.eatin p {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Quicksand, sans-serif;
+}
+
+.eatin img {
+  width: 90%;
+  padding: 5% 5%;
+}
+
+.map {
+  position: relative;
+}
+
+.map p {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Quicksand, sans-serif;
+}
+
+.map img {
+  width: 100%;
+  padding: 0% 0%;
 }
 
 .p-articles {
