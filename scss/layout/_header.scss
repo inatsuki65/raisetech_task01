@@ -2,16 +2,39 @@
 .header {
   position: relative;
   text-align: center;
-  height: 100px;
+  height: 300px;
+  padding: 50px 50px;
+  background-color: #FFF7EF;
+
   
   .header_ttl {
-    // top:      50%;
-    // left:     50%;
-    // transform: translate(-50%,-50%);
+    line-height:      300%;
+    left:     50%;
+    //transform: translateX(-50%);
+    //-webkit-transform: translateX(-50%);
+    //-ms-transform: translateX(-50%);
     color: gray;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 5em;
     font-family: Quicksand, sans-serif;
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+
+  form {
+    top: 75%;
+    margin: 0 auto;
+    .search{
+      height:70px;
+      width:500px;
+    }
+    .submit{
+      height:70px;
+      width:100px;
+    }
   }
 
 }

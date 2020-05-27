@@ -341,34 +341,98 @@ template {
   display: none;
 }
 
+.footer {
+  padding: 0 0;
+  margin: 0;
+  height: 200px;
+  background-color: #96806B;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.footer ul {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  color: inherit;
+}
+
+.footer ul li + li {
+  border-left: 1px solid #333;
+}
+
+.footer p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
 .header {
   position: relative;
   text-align: center;
-  height: 100px;
+  height: 300px;
+  padding: 50px 50px;
+  background-color: #FFF7EF;
 }
 
 .header .header_ttl {
+  line-height: 300%;
+  left: 50%;
   color: gray;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 5em;
   font-family: Quicksand, sans-serif;
+}
+
+.header .header_ttl a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.header form {
+  top: 75%;
+  margin: 0 auto;
+}
+
+.header form .search {
+  height: 70px;
+  width: 500px;
+}
+
+.header form .submit {
+  height: 70px;
+  width: 100px;
 }
 
 .damysite {
   position: relative;
 }
 
-.damysite p {
+.damysite h2 {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 30%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 5em;
   font-family: Quicksand, sans-serif;
 }
 
@@ -380,18 +444,54 @@ template {
   position: relative;
 }
 
-.takeout p {
+.takeout h2 {
   position: absolute;
-  top: 2%;
-  left: 5%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 5%;
+  left: 10%;
   margin: 0;
   padding: 0;
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 5em;
   font-family: Quicksand, sans-serif;
+}
+
+.takeout .text1 {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.takeout .text1 h3 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.takeout .text1 p {
+  font-size: 3em;
+}
+
+.takeout .text2 {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.takeout .text2 h3 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.takeout .text2 p {
+  font-size: 3em;
 }
 
 .takeout img {
@@ -403,18 +503,54 @@ template {
   position: relative;
 }
 
-.eatin p {
+.eatin h2 {
   position: absolute;
-  top: 2%;
-  left: 5%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 5%;
+  left: 10%;
   margin: 0;
   padding: 0;
   color: white;
   font-weight: bold;
   font-size: 2em;
   font-family: Quicksand, sans-serif;
+}
+
+.eatin .text1 {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.eatin .text1 h3 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.eatin .text1 p {
+  font-size: 3em;
+}
+
+.eatin .text2 {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.eatin .text2 h3 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.eatin .text2 p {
+  font-size: 3em;
 }
 
 .eatin img {
@@ -424,20 +560,24 @@ template {
 
 .map {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.map p {
+.map .text1 {
   position: absolute;
   top: 2%;
   left: 5%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
   color: white;
-  font-weight: bold;
+  width: 85%;
+  line-height: 5em;
+}
+
+.map .text1 h2 {
+  font-size: 5em;
+}
+
+.map .text1 p {
   font-size: 2em;
-  font-family: Quicksand, sans-serif;
 }
 
 .map img {
